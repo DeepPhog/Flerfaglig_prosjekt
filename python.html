@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(26, 26, 26);
+            color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+<body>
+    <p class="py"># from ast import If <br>
+        # from distutils.log import error<br>
+        # from tkinter.filedialog import FileDialog<br>
+        <br>
+        <br>
+        class Filedata:<br>
+        def init(self):<br>
+        self.b = 0<br>
+        self.a = 0<br>
+        self.e = 0<br>
+        self.lp = 0<br>
+        self.longestLine = 0<br>
+        self.linenumber = 0<br>
+        self.sumLength = 0<br>
+        self.ave = 0<br>
+        <br>
+        <br>
+        f = Filedata()<br>
+        <br>
+        file = open('C:/test/dotlp_trace.txt', 'r')<br>
+        f.b = 0<br>
+        f.a = 0<br>
+        f.e = 0<br>
+        f.lp = 0<br>
+        f.longestLine = 0<br>
+        f.linenumber = 0<br>
+        f.sumLength = 0<br>
+        f.ave = 0<br>
+        <br>
+        while True:<br>
+        f.linenumber += 1<br>
+        <br>
+        line = file.readline()<br>
+        lengde = len(line)<br>
+        f.sumLength += lengde<br>
+        <br>
+        if lengde > f.longestLine:<br>
+        f.longestLine = lengde<br>
+        <br>
+        if not line:<br>
+        break<br>
+        <br>
+        if 'ERROR' in line:<br>
+        # print(line)<br>
+        f.e += 1<br>
+        f.a += 1<br>
+        <br>
+        elif 'lp_say' in line:<br>
+        # print(line)<br>
+        f.a += 1<br>
+        f.lp += 1<br>
+        f.b += 1<br>
+        <br>
+        <br>
+        file.close()<br>
+        f.ave = f.sumLength / f.b<br>
+        print(f.b, " lines")<br>
+        print(f.e, " Error")<br>
+        print(f.lp, " lp")<br>
+        print(f.a, " Error or lp")<br>
+        print(f.longestLine, "Longest line")<br>
+        print(f.linenumber, "number of lines")<br>
+        print(f.ave, "ave")<br>
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,292 @@
+body {
+  margin: -10px;
+  padding: 10px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.now {
+  color: red;
+  text-decoration: none;
+}
+
+header {
+  background-color: #e0f2fc;
+  padding: 30px 10px 10px 10px;
+  margin: -20px -5px 0px -5px;
+  border-bottom: solid black 1px;
+}
+
+.cont2 {
+  padding: 10px 0px 10px 0px;
+}
+
+.cont2copy {
+  padding: 10px 0px 10px 0px;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont a {
+  text-decoration: none;
+}
+
+.cont img {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.cont2 {
+  display: flex;
+  color: black;
+}
+
+.cont2 a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.cont2 a:hover {
+  color: red;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.back {
+  color: black;
+  margin: -10px 0 -10px 0px;
+}
+
+.back:hover {
+  color: red;
+  border-radius: 100px;
+  background-color: #e0f2fc;
+}
+
+.middle {
+  padding: 20px;
+}
+
+.left {
+  background-color: #e0f2fc;
+}
+
+.cont2copy {
+  display: flex;
+
+}
+
+.cont2copy a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.color {
+  color: black;
+}
+
+.cont2copy a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgb(54, 50, 50);
+  border-radius: 20px;
+  margin: 10px -5px -5px -5px;
+  display: flex;
+  padding-bottom: 100px;
+  justify-content: center;
+  position: absolute;
+  bottom: -10px;
+  right: 0px;
+  left: 0px;
+
+  margin: -20px -5px -50px -5px;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: yellow;
+}
+
+footer p {
+  text-decoration: none;
+  color: yellow;
+}
+
+footer a:hover {
+  text-shadow: 0.1px 0.5px yellow;
+  text-decoration: underline;
+}
+
+.myLogo {
+  width: 90px;
+  margin: -10px 0 -10px -15px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.Sliderstart {
+  display: block;
+  text-align: center;
+}
+
+.mySlides {
+  display: none;
+  text-align: center;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(137, 137, 137);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slider end */
+
+.imglink {
+  border: black solid 20px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  width: 680px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.imglink2 {
+  border: black solid 20px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  height: 352px;
+
+  border-radius: 10px;
+
+}
+
+p {
+  text-align: center;
+}
+
+.imgr {
+  width: 50%;
+}
+
+.contlr {
+  display: flex;
+  background-color: rgb(224, 242, 252);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.middle2 {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.noc {
+  text-align: left;
+}
+
+.py {
+  text-align: left;
+  overflow-y: scroll;
+}
+
+audio {
+  margin-bottom: 50px;
+}
+
+.num {
+  margin-bottom: 60px;
+}
+
+.left2 {
+  margin-left: 10px;
+  font-size: 30px;
+}
